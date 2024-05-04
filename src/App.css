@@ -1,0 +1,32 @@
+#navbarMain{
+  background-color: blue;
+  color: white;
+}
+
+#logo{
+  /* background:linear-gradient(135deg,yellow, red); */
+  color: rgb(255, 255, 255);
+}
+#navbarSupportedContent>ul>li>a{
+  color: rgb(76, 245, 38);
+}
+#navbarSupportedContent>ul>li:hover{
+  background: linear-gradient(135deg,rgb(174, 63, 63) ,rgb(164, 23, 23));
+  border-radius: 10px;
+}
+#navInput>button,#navInput>input{
+  border: none;
+  outline: none;
+}
+#navInput>button{
+  background: linear-gradient(135deg,yellow ,red);
+  color: black;
+}
+#navInput>button:hover{
+  background: linear-gradient(135deg,rgb(174, 63, 63) ,rgb(164, 23, 23));
+  border-radius: 10px;
+  color: rgb(236, 223, 223);
+  border: none;
+  outline: none;
+  color: #1fc6dd;
+}
